@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    header{
+        background-color: #4d74b1;
+        color: rgb(238, 245, 244);
+        /* text-align: center; */
+        /* padding: 10px; */
+        margin-top: 0%;
+        padding-top: 0%;
+        position: sticky;
+        top: 0;
+    }
+    header h1{
+        padding: 10px;
+        margin: 0;
+        text-align: left;
+    }
+    header div{
+        display: flex;
+        position: fixed;
+        right: 0;
+        top: 0;
+        text-decoration: none;
+    }
+    header div a{
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 18px;
+        margin: 0px;
+    }
+    header div a:hover{
+        background-color: #3e5f8a;
+    }
+    header div a:active{
+        background-color: #3d94c4;
+        /* transition-delay: 0.5s; */
+
+    }
+   @media (max-width: 768px){
+       header{
+           background-color: rgb(36, 97, 177);
+       }
+       header h1{
+           text-align: center;
+       }
+       header div{
+           display: block;
+           position: relative;
+       }
+       header div a{
+           display: block;
+           padding: 10px;
+           text-align: center;
+           border: solid 1px white;
+           border-radius: 10px;
+       }
+    
+   }
+</style>
+<body>
+
+    <header>
+
+        <h1>Welcome to my website</h1>
+        <div>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="">more info</a>
+        </div>
+    </header>
+    
+</body>
+</html>
